@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: 自動更新程式碼
         run: |
-          cd /home/ian105102/your-project-folder  # <- 請換成實際的專案路徑
+          cd /home/ian105102/test
           git reset --hard
           git pull origin main
           echo "✅ 程式碼已自動拉取最新版本！"
