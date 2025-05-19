@@ -15,4 +15,4 @@ jobs:
           cd /home/ian105102/test
           git reset --hard
           git pull origin main
-          echo "✅ 程式碼已自動拉取最新版本！"
+          echo "✅ 程式碼已自動拉取最新版本！"  
